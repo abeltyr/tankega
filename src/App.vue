@@ -4,7 +4,7 @@
         <div class="rows" v-for="(row,rowindex) in rows" v-bind:style="{gridTemplateColumns:columnNo}">
             <div 
               v-for="(column, columnindex) in columns"
-              v-bind:class="{ column: !true, columns: obe[rowindex+"."+ columnindex] }" >
+              v-bind:class="{ column: !true, columns: true}" >
               {{}}
               </div>
         </div>
